@@ -15,12 +15,12 @@ function Header() {
         <div className="header flex flex-12 space-between p-20">
           <div className="content flex-3">
             <a href="/">
-              <h1 className="header-1 p-5">Github Fetch</h1>
+              <h1 className="header-1 p-5">iDEAFY</h1>
             </a>
           </div>
           <div className="content flex-4 flex none-small">
             <a href="https://github.com/Dopeamin" target="_blank">
-              <p className="link p-5 mr-10">Check my Github</p>
+              <p className="link p-5 mr-10">Check our Github</p>
             </a>
           </div>
           <div className="content flex flex-4 space-around none-xsmall">
@@ -31,7 +31,7 @@ function Header() {
               click={clickHandler}
             ></Button>
             <a
-              href="https://github.com/Dopeamin/github-repositories-fetch/blob/master/README.md"
+              href="https://github.com/ideafy-ai/ideafy/blob/master/README.md"
               target="_blank"
             >
               <Button
