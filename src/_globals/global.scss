@@ -292,7 +292,7 @@ $secondary-color: #2a73ff;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: fit-content;
   margin-top: 50px;
 }
 .header-3 {
@@ -304,14 +304,16 @@ $secondary-color: #2a73ff;
 .paragraph-xsmall {
   font-size: 0.8rem;
 }
+.green{
+  color:green;
+}
 .card,
 .modal {
-  height: 230px;
   width: 90%;
   margin: 10px;
   padding: 20px;
   border-radius: 20px;
-  max-width: 300px;
+  max-width: 500px;
   transition: all 0.5s ease;
   box-shadow: 0 6px 20px #6f76803d;
   .avatar {
